@@ -46,9 +46,8 @@ export default class PipeDrive {
         });
     });
   }
-}
-
-webHook1(person={})
+  
+  webHook1(person={})
 {
 
     const person = person;
@@ -58,3 +57,6 @@ webHook1(person={})
         person.flag="Updated";
     }
 }
+
+}
+
