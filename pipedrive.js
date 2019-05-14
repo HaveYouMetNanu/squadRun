@@ -1,8 +1,8 @@
 import axios from axios;
 export default class PipeDrive {
   constructor() {
-    company_domain="kashyap-746b40";
-    api_token = "6042ab690ae82678a0455169bdb277ff2f519372";
+    company_domain="squadrun-fd1c9c";
+    api_token = "eea94c078a344955a482a7dc14316fd2a20ade71";
   }
   searchPersonByName(name = "") {
     return new Promise((resolve, reject) => {
